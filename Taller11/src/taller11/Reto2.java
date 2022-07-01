@@ -7,15 +7,8 @@ package taller11;
 
 /**
  *
- * @author reroes
+ * @author UTPL
  */
-public class Taller11 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Reto2 {
     
 }
