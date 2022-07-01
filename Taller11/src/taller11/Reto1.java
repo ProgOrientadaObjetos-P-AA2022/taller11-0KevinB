@@ -14,7 +14,8 @@ import java.util.ArrayList;
 public class Reto1 {
 
     public static void main(String[] args) {
-        ArrayList<Menu> listamenu = new ArrayList<>();
+        ArrayList<Menu> lista = new ArrayList<>();
+        
         MenuCarta menuCar1 = new MenuCarta("Plato Carta 001", 6, 1.5, 2);
         menuCar1.establecerPorcentajeAdicional(10);
         menuCar1.calcularvalorMenuTotal();
@@ -28,14 +29,14 @@ public class Reto1 {
         menuEco1.establecerPorcentajeDescuento(25);
         menuEco1.calcularvalorMenuTotal();
 
-        listamenu.add(menuninos1);
-        listamenu.add(menuninos2);
-        listamenu.add(menuEco1);
-        listamenu.add(menudia1);
-        listamenu.add(menuCar1);
-        
+        lista.add(menuninos1);
+        lista.add(menuninos2);
+        lista.add(menuEco1);
+        lista.add(menudia1);
+        lista.add(menuCar1);
+
         CuentaMenu cuenta1 = new CuentaMenu();
-        cuenta1.establecerListaMenu(listamenu);
+        cuenta1.establecerListaMenu(lista);
         cuenta1.establecerId(012);
         cuenta1.establecerNombreCliente("Rene Elizalde");
         cuenta1.calcularvalortotalcancelar();

@@ -25,7 +25,7 @@ public class Ejecutor {
         menuN1.calcularvalorMenuTotal();
         MenuNinos menuN2 = new MenuNinos("Hot dog", 1, 2, 3);
         menuN2.calcularvalorMenuTotal();
-        MenuEconomico menuEco = new MenuEconomico("Carne asada", 3);
+        MenuEconomico menuEco = new MenuEconomico("Pollo frito", 3);
         menuEco.establecerPorcentajeDescuento(10);
         menuEco.calcularvalorMenuTotal();
 
