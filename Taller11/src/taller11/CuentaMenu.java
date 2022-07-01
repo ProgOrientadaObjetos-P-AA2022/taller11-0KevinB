@@ -19,6 +19,15 @@ public class CuentaMenu {
     private double iva = 0.12;
     private int id;
 
+    public CuentaMenu(String n, ArrayList<Menu> l, double x) {
+        nombreCliente = n;
+        listamenu = l;
+        iva = x / 100;
+    }
+
+    public CuentaMenu() {
+    }
+
     public void establecerId(int c) {
         id = c;
     }

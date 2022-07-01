@@ -37,7 +37,7 @@ public class MenuEconomico extends Menu {
     public String toString() {
         String cadena = String.format("Menu Economico\n%s", super.toString());
         cadena = String.format("%s"
-                + "Porcentaje descuento%.2f\n"
+                + "Valor de descuento%.2f\n"
                 + "Valor Menu:%.2f\n", cadena,
                 obtenerPorcentajeDescuento(),
                 obtenerValorMenu());
