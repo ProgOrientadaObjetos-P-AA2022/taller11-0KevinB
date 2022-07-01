@@ -8,12 +8,12 @@ package taller11;
  *
  * @author UsuarioITC
  */
-public class MenudelDia extends Menu {
+public class MenuDia extends Menu {
 
     private double valorPostre;
     private double valorBebida;
 
-    public MenudelDia(String n, double v, double vpostre, double vbebida) {
+    public MenuDia(String n, double v, double vpostre, double vbebida) {
         super(n, v);
         valorPostre = vpostre;
         valorBebida = vbebida;

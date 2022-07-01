@@ -63,7 +63,7 @@ public class MenuCarta extends Menu {
                 + "Valor bebida:%.2f\n"
                 + "Porcentaje Adicional:%.2f\n"
                 + "Valor menu:%.2f\n", cadena,
-                guarnicion,
+                obtenerValorPorcionGuarnicion(),
                 obtenerValorBebida(),
                 obtenerPorcentajeAdicional(),
                 obtenerValorMenu());

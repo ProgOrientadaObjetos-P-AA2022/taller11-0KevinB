@@ -18,7 +18,7 @@ public class Reto1 {
         MenuCarta menuCar1 = new MenuCarta("Plato Carta 001", 6, 1.5, 2);
         menuCar1.establecerPorcentajeAdicional(10);
         menuCar1.calcularvalorMenuTotal();
-        MenudelDia menudia1 = new MenudelDia("Plato Dia 001", 5, 1, 1);
+        MenuDia menudia1 = new MenuDia("Plato Dia 001", 5, 1, 1);
         menudia1.calcularvalorMenuTotal();
         MenuNinos menuninos1 = new MenuNinos("Plato de niños 01", 2, 1, 1.50);
         menuninos1.calcularvalorMenuTotal();

@@ -47,7 +47,7 @@ public abstract class Menu {
 
     @Override
     public String toString() {
-        String cadena = String.format("Nombre del Plato:%s\n"
+        String cadena = String.format("%s\n"
                 + "Valor menu inicial:%.2f\n", obtenerNombrePlato(),
                 obtenerValorinicialMenu());
         return cadena;
